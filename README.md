@@ -69,6 +69,8 @@ This project strictly separates the presentation layer from the business/AI logi
 
 [x] Dockerization and Nginx configuration
 
+[x] History implementation
+
 [ ] Integration with local LLM (e.g., Ollama / Llama 3) for real-time generative responses
 
 [ ] Implement database persistence (PostgreSQL/SQLite) for chat history
