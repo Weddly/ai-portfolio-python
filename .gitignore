@@ -1,0 +1,14 @@
+# Node / Angular (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Python / FastAPI (Backend)
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db

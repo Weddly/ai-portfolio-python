@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "8000:8000"
+    # The volumes mapping allows hot-reloading for local development
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "4200:80" # Maps localhost:4200 to Nginx's internal port 80
+    depends_on:
+      - backend
